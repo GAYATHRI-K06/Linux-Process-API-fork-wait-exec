@@ -47,34 +47,8 @@ int main(void)
 
 ```````
 
-
-
-
-
-
-
-
-
-
-
-
-##OUTPUT
-$./pidcheck.o
-The process id:2382
-The process id of parent function:2258
-
-$ps
-PID TTY       TIME CMD
-2258pts/0     00:00:00 bash
-2392pts/0     00:00:00 ps
-
-
-
-
-
-
-
-
+## OUTPUT:
+![image](https://github.com/JoyceBeulah/Linux-Process-API-fork-wait-exec/assets/118343698/c185b57b-3f9d-46bb-8c35-d1d38d480959)
 
 ## C Program to create new process using Linux API system calls fork() and exit()
 ``````
@@ -110,26 +84,8 @@ exit(0);}
 
 ````````
 
-
-
-
-
-
-
-
-
-
-##OUTPUT
-$./forkcheck.o
-I am parent, my pid is 13676
-Iam child mypid is 13677
-My parent pid is:13676
-
-
-
-
-
-
+## OUTPUT:
+![image](https://github.com/JoyceBeulah/Linux-Process-API-fork-wait-exec/assets/118343698/f3fde68b-c98d-4172-a7db-0773758b3ad4)
 
 ## C Program to execute Linux system commands using Linux API system calls exec() family
 ````````
@@ -158,50 +114,8 @@ printf("Running ps with execlp. Now with path specified\n");
 
 ````````
      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##OUTPUT
-$./execcheck2.o
-Running ps with execlp
-child did not exit successfully
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## OUTPUT:
+![image](https://github.com/JoyceBeulah/Linux-Process-API-fork-wait-exec/assets/118343698/42dda2d9-9f8a-47d2-b9c5-13dd09b97dd3)
 
 # RESULT:
 The programs are executed successfully.
